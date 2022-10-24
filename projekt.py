@@ -15,7 +15,6 @@ def get_prefix(client, msg):
 intents = nextcord.Intents.all()
 client = commands.Bot(command_prefix = get_prefix, intents = intents)
 client.remove_command("help")
-#token = 'NjIyMTA1NTMzMTM4MzM3ODEy.XXvC7Q.RPUyq69C-pRq6Hy4ByNUI9D5L1o'
 
 #'''
 try:
